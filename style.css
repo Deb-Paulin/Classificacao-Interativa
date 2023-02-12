@@ -1,6 +1,8 @@
 /*Mobile: 375px
   Desktop: 1440px */
 
+@import url(styles/tela.css);
+
 :root {
     --laranja:#fb7413;
     --branco: #ffffff;
@@ -8,11 +10,12 @@
     --cinza-medio: #7c8798;
     --cor-tela: #252d37;
     --cor-fundo: #121417;
+    --cor-botao: #3e434c;
     --fonte: 'Overpass', sans-serif;
 }
 
 body {
-    font-size: 15px;
-    font-family: var(--fonte);
+  font-size: 15px;
+  font-family: var(--fonte);
+  background-color: var(--cor-fundo);
 }
-
