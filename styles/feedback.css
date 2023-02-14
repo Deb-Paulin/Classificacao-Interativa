@@ -1,0 +1,35 @@
+.feedback {
+    background-color: var(--cor-tela);
+    width: 90%;
+    height: 23rem;
+    margin: 7rem 2rem 10rem 1.2rem;
+    border-radius: 12px;
+}
+
+.feedback_imagem {
+    width: 50%;
+    margin: 36px 0 18px 70px;
+}
+
+.feedback_botao {
+    display: flex;
+    margin: 8px 0 18px 78px;
+    border: 0px;
+    padding: 7px 10px;
+    border-radius: 14px;
+    background-color: var(--cor-botao);
+    color: var(--laranja);
+}
+
+.feedback_titulo {
+    font-size: 22px;
+    color: var(--branco);
+    margin: 24px 0 10px 98px;
+}
+
+.feedback_texto {
+    font-size: 14px;
+    color: var(--cinza-medio);
+    text-align: center;
+    margin: 12px 10px 10px 10px;
+}

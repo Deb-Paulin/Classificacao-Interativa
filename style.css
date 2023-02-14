@@ -2,6 +2,7 @@
   Desktop: 1440px */
 
 @import url(styles/tela.css);
+@import url(styles/feedback.css);
 
 :root {
     --laranja:#fb7413;
