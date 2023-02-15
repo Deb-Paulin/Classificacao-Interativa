@@ -24,6 +24,8 @@
 .container_texto {
     color: var(--cinza);
     margin: 10px 20px 10px 20px;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 .classificacao {
