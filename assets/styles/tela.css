@@ -3,7 +3,7 @@
     width: 90%;
     height: 23rem;
     margin: 7rem 2rem 10rem 1.2rem;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
 .estrela {
@@ -29,8 +29,7 @@
 }
 
 .classificacao {
-    margin-top: -18.5rem;
-    margin-left: 2.9rem;
+    margin: -18.5rem 0 0 2.9rem;
 }
 
 .num {
@@ -54,4 +53,44 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1.5px;
+}
+
+@media screen and (min-width: 1200px) {
+.container {
+    width: 35%;
+    height: 25rem;
+    margin: 7rem 10rem 20rem 26rem;
+}
+.estrela {
+    width: 16px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.container_titulo {
+    font-size: 28px;
+    margin-left: 48px;
+}
+.container_texto {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 48px;
+}
+.classificacao {
+    margin-left: 30rem;
+    position: relative;
+    top: -12rem;
+}
+.num {
+    font-size: 19px;
+    padding: 12px 18px;
+    margin-right: 16px;
+}
+.submit {
+    margin-left: 30rem;
+    position: relative;
+    top: -11.5rem;
+    padding: 10px 120px;
+    border-radius: 22px;
+    font-size: 18px;
+}
 }
