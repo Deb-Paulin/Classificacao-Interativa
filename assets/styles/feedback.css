@@ -3,7 +3,7 @@
     width: 90%;
     height: 23rem;
     margin: 7rem 2rem 10rem 1.2rem;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
 .feedback_imagem {
@@ -32,4 +32,28 @@
     color: var(--cinza-medio);
     text-align: center;
     margin: 12px 10px 10px 10px;
+}
+
+@media screen and (min-width: 1200px) {
+    .feedback {
+        width: 35%;
+        height: 25rem;
+        margin: 7rem 10rem 20rem 26rem;
+    }
+    .feedback_imagem {
+        width: 36%;
+        margin: 36px 0 18px 140px;
+    }
+    .feedback_botao {
+        margin: 8px 0 18px 124px;
+        font-size: 18px;
+    }
+    .feedback_titulo {
+        margin: 24px 0 10px 160px;
+        font-size: 26px;
+    }
+    .feedback_texto {
+        font-size: 18px;
+        margin: 20px 16px 20px 16px;
+    }
 }
