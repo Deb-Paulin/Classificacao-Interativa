@@ -29,7 +29,7 @@
 }
 
 .classificacao {
-    margin: -18.5rem 0 0 2.9rem;
+    margin: -18.5rem 0 2.5rem 2.9rem;
 }
 
 .num {
@@ -41,6 +41,11 @@
     font-weight: 700;
     color: var(--cinza-medio);
     margin-right: 12px;
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: var(--cinza);
 }
 
 .submit {
@@ -53,6 +58,13 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: var(--branco);
+    color: var(--laranja);
 }
 
 @media screen and (min-width: 1200px) {
@@ -88,7 +100,7 @@
 .submit {
     margin-left: 30rem;
     position: relative;
-    top: -11.5rem;
+    top: -12rem;
     padding: 10px 120px;
     border-radius: 22px;
     font-size: 18px;
