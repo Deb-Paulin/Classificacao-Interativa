@@ -1,10 +1,13 @@
-const numero = document.querySelector(".num");
 
-function mudaCor() {
-    numero.style.color = '#fb7413';
-}
-
-numero.addEventListener("click", mudaCor); 
+/*numero.addEventListener("click", mudaCor); 
     function mudaCor() {
         numero.style.color = 'green';
-    }
+    }*/
+
+    const numeros = document.querySelectorAll(".num");
+
+    numeros.forEach((num) => {
+        num.addEventListener("click", function () {
+          this.style.color = "green"
+        })
+      })
