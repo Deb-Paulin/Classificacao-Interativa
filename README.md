@@ -12,6 +12,7 @@ Esse é um desafio do Front-End Mentor, onde deveria criar uma landing page de c
 ![Screenshot from 2023-02-22 22-16-36](https://user-images.githubusercontent.com/113848968/220800620-262d0cff-e3e6-4ced-b23e-d02a3873dbab.png)
 
 ## Deploy do projeto 
+https://deb-paulin.github.io/Classificacao-Interativa/
 
 ## Aplicabilidade 
 Ao entrar no deploy do projeto deve-se escolher uma nota, após isso enviar no botão "submit", em seguida irá aparecer a tela de feedback.
