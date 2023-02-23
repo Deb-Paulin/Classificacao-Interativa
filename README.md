@@ -19,7 +19,7 @@ Ao entrar no deploy do projeto deve-se escolher uma nota, após isso enviar no b
 
 
 ## Objetivos
-Conseguir avançar em Javascript e aprimorar a metodologia Mobile-First
+Conseguir avançar em Javascript e aprimorar a metodologia Mobile-First (quando o projeto é pensando primeiro para Mobile)
 
 ## Tecnologias utilizadas
 -HTML 
